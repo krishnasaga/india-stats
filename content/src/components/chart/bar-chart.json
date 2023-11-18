@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_chart_bar_charts",
+  "info": {
+    "displayName": "BarChart"
+  },
+  "options": {},
+  "attributes": {
+    "x": {
+      "type": "json"
+    },
+    "y": {
+      "type": "json"
+    }
+  }
+}

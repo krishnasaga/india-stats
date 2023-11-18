@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_chart_single_stats",
+  "info": {
+    "displayName": "SingleStat",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "float"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "prefix": {
+      "type": "string"
+    },
+    "diff": {
+      "type": "float"
+    }
+  }
+}

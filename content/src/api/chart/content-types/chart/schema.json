@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "charts",
+  "info": {
+    "singularName": "chart",
+    "pluralName": "charts",
+    "displayName": "Chart"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "chart": {
+      "type": "dynamiczone",
+      "components": [
+        "chart.bar-chart",
+        "chart.single-stat"
+      ]
+    }
+  }
+}

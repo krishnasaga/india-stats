@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article_pages",
+  "info": {
+    "singularName": "article-page",
+    "pluralName": "article-pages",
+    "displayName": "article-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "charts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::chart.chart"
+    },
+    "chart": {
+      "type": "dynamiczone",
+      "components": [
+        "chart.bar-chart",
+        "chart.single-stat"
+      ]
+    },
+    "template": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}
