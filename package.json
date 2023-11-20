@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts":{
+    "start": "npm workspaces run start"
+  },
+  "dependencies": {
+    "yarn": "^1.22.21"
+  },
+  "workspaces": [
+    "content",
+    "site"
+  ]
+}
